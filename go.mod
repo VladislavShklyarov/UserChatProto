@@ -1,4 +1,4 @@
-module github.com/VladislavShklyarov/UserChatProto
+module github.com/VladislavShklyarov/userChatProto
 // new
 go 1.25.5
 

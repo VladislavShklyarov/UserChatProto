@@ -6,7 +6,7 @@ import "google/api/annotations.proto";
 import "google/api/http.proto";
 
 package user_service.v1;
-option go_package = "github.com/VladislavShklyarov/userChatProto/gen/UserService/v1";
+option go_package = "github.com/VladislavShklyarov/UserChatProto/gen/UserService/v1";
 
 service UserService {
   rpc CreateUser(CreateUserRequest) returns (CreateUserResponse) {
