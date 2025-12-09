@@ -1,5 +1,5 @@
 module github.com/VladislavShklyarov/UserChatProto
-
+// new
 go 1.25.5
 
 require (
