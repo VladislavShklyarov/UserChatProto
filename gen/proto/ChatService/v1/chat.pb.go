@@ -236,7 +236,7 @@ const file_proto_ChatService_v1_chat_proto_rawDesc = "" +
 	"CreateChat\x12\".chat_service.v1.CreateChatRequest\x1a#.chat_service.v1.CreateChatResponse\"\x14\x82\xd3\xe4\x93\x02\x0e:\x01*\"\t/v1/chats\x12`\n" +
 	"\n" +
 	"DeleteChat\x12\".chat_service.v1.DeleteChatRequest\x1a\x16.google.protobuf.Empty\"\x16\x82\xd3\xe4\x93\x02\x10*\x0e/v1/chats/{id}\x12m\n" +
-	"\vSendMessage\x12#.chat_service.v1.SendMessageRequest\x1a\x16.google.protobuf.Empty\"!\x82\xd3\xe4\x93\x02\x1b:\x01*\"\x16v1/chats/{id}/messagesB@Z>github.com/VladislavShklyarov/userChatProto/gen/ChatService/v1b\x06proto3"
+	"\vSendMessage\x12#.chat_service.v1.SendMessageRequest\x1a\x16.google.protobuf.Empty\"!\x82\xd3\xe4\x93\x02\x1b:\x01*\"\x16v1/chats/{id}/messagesBFZDgithub.com/VladislavShklyarov/UserChatProto/gen/proto/ChatService/v1b\x06proto3"
 
 var (
 	file_proto_ChatService_v1_chat_proto_rawDescOnce sync.Once

@@ -467,7 +467,7 @@ const file_proto_UserService_v1_user_proto_rawDesc = "" +
 	"\n" +
 	"UpdateUser\x12\".user_service.v1.UpdateUserRequest\x1a\x16.google.protobuf.Empty\"\x19\x82\xd3\xe4\x93\x02\x13:\x01*2\x0e/v1/users/{id}\x12`\n" +
 	"\n" +
-	"DeleteUser\x12\".user_service.v1.DeleteUserRequest\x1a\x16.google.protobuf.Empty\"\x16\x82\xd3\xe4\x93\x02\x10*\x0e/v1/users/{id}B@Z>github.com/VladislavShklyarov/userChatProto/gen/UserService/v1b\x06proto3"
+	"DeleteUser\x12\".user_service.v1.DeleteUserRequest\x1a\x16.google.protobuf.Empty\"\x16\x82\xd3\xe4\x93\x02\x10*\x0e/v1/users/{id}B@Z>github.com/VladislavShklyarov/UserChatProto/gen/UserService/v1b\x06proto3"
 
 var (
 	file_proto_UserService_v1_user_proto_rawDescOnce sync.Once
