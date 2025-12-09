@@ -6,7 +6,7 @@ import "google/api/annotations.proto";
 import "google/api/http.proto";
 
 package chat_service.v1;
-option go_package = "github.com/VladislavShklyarov/UserChatProto/gen/proto/ChatService/v1";
+option go_package = "github.com/VladislavShklyarov/UserChatProto/gen/ChatService/v1";
 
 
 service ChatService {
