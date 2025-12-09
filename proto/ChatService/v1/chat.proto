@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
+import "google/api/annotations.proto";
+import "google/api/http.proto";
+
+package chat_service.v1;
+option go_package = "github.com/VladislavShklyarov/userChatProto/gen/ChatService/v1";
+
+
+service ChatService {
+  rpc CreateChat(CreateChatRequest) returns (CreateChatResponse){
+    option (google.api.http) = {
+      post: "/v1/chats"
+      body: "*"
+    };
+  }
+  rpc DeleteChat(DeleteChatRequest) returns (google.protobuf.Empty) {
+    option (google.api.http) = {
+      delete: "/v1/chats/{id}"
+    };
+  }
+  rpc SendMessage(SendMessageRequest) returns (google.protobuf.Empty) {
+    option(google.api.http) = {
+      post: "v1/chats/{id}/messages"
+      body: "*"
+    };
+  }
+
+}
+
+message CreateChatRequest {
+  repeated string usernames = 1;
+}
+
+message CreateChatResponse {
+  int64 id = 1;
+}
+
+message DeleteChatRequest {
+  int64 id = 1;
+}
+
+message SendMessageRequest {
+  string from = 1;
+  string text = 2;
+  google.protobuf.Timestamp timestamp = 3;
+}
