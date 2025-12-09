@@ -1,4 +1,4 @@
-module userChatProto
+module UserChatProto
 
 go 1.25.5
 
